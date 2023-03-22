@@ -1,0 +1,178 @@
+body {
+    font-size: 1em;
+    font-family: "trebuchet ms", sans-serif, Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/*Layout*/
+#cabecalho {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo,
+menu {
+    padding: 15px;
+}
+
+h1 {
+    color: #4e4e4e;
+    font-size: 3em;
+}
+
+h2 {
+    color: #f7b600;
+    font-size: 1.7em;
+}
+
+h3 {
+    font-size: 1.2em;
+    background: #ccc;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.branco {
+    color: white;
+}
+
+#conteudo {
+    padding: 15px;
+    width: 920px;
+    margin: 0 auto;
+}
+
+#postagens {
+    width: 660px;
+    float: left;
+}
+
+#barralateral {
+    width: 240px;
+    float: right;
+}
+
+#barralateral {
+    background: #fff;
+    border-radius: 5px;
+}
+
+.postagemlateral {
+    font-size: 0.7em;
+    padding: 5px;
+    margin-bottom: 100px;
+}
+
+.categorias {
+    font-size: 1.2em;
+    padding: 5px;
+    margin-bottom: 400px;
+}
+
+#rodape {
+    background: #ccc;
+    text-align: center;
+    padding: 15px;
+    clear: both;
+    border-radius: 5px;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.datapostagem {
+    font-size: 0.8em;
+    border: 1px solid #f4f4f4;
+    padding: 5px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/*FORMATAÇÃO LINKS DA PAGINA*/
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:link a:visited {
+    color: #f7b600
+}
+
+/*Formatação links menu/cabeçalho*/
+#cabecalho a:link,
+#cabecalho a:visited {
+    color: #e6e6e6;
+    padding: 8px 12px;
+}
+
+#cabecalho a:hover {
+    color: #f7b600;
+    background-color: #e6e6e6;
+    border-radius: 7px;
+    padding: 8px 12px;
+}
+
+#cabecalho a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+/*FORMATAÇÃO LINKS POSTAGENS*/
+
+#postagens a:hover {
+    text-decoration: underline;
+}
+
+#postagens a:link,
+#postagens a:visited {
+    color: #f7b600;
+    padding: 8px 12px;
+}
+
+#postagens a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+/*Formatação links postagens barra lateral*/
+
+.postagemlateral a:hover {
+    text-decoration: underline;
+}
+
+.postagemlateral a:link,
+.postagemlateral a:visited {
+    color: #f7b600;
+    margin-top: 10px;
+}
+
+.postagemlateral a {
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/*Formatação links categoras barra lateral*/
+
+.categorias a:hover {
+    text-decoration: underline;
+    padding: 15px;
+    font-size: 2em;
+}
+
+.categorias a:link,
+.categorias a:visited {
+    color: #f7b600;
+}
+
+.categorias a {
+    text-decoration: none;
+}
